@@ -12,8 +12,8 @@ var data_ypcc_cfd = {
             backgroundColor: [
                 'rgba(92, 184, 92, 1.0)',
                 'rgba(92, 184, 92, 0.8)',
-                'rgba(217, 83, 79, 0.4)',
-                'rgba(217, 83, 79, 0.6)'
+                'rgba(217, 83, 79, 0.6)',
+                'rgba(217, 83, 79, 0.8)'
             ]
         }
     ]
@@ -76,6 +76,35 @@ var data_HandS = {
     ]
 };
 
+// Question 29
+var data_stanford = {
+    labels: ["Support", "Oppose", "No Response"],
+    datasets: [
+        {
+            data: [67, 31, 2],
+            backgroundColor: [
+                'rgba(92, 184, 92, 1.0)',
+                'rgba(217, 83, 79, 0.8)',
+            ]
+        }
+    ]
+}
+
+// Question 29
+var data_FandGS_29 = {
+    labels: ["Agree", "Agree with Provisions", "Disagree", "No Response"],
+    datasets: [
+        {
+            data: [59.0, 19.7, 19.4, 1.6],
+            backgroundColor: [
+                'rgba(92, 184, 92, 1.0)',
+                'rgba(92, 184, 92, 0.8)',
+                'rgba(217, 83, 79, 0.8)',
+            ]
+        }
+    ]
+}
+
 /*
 * Chart definitions
 */
@@ -100,6 +129,24 @@ var chart_2 = new Chart($('#pie_2'),
 var chart_3 = new Chart($('#pie_3'),
 {
     type: 'pie', data: data_HandS,
+    options: {
+        cutoutPercentage: 50,
+        legend: {display: false}
+    }
+});
+
+var chart_3 = new Chart($('#pie_4'),
+{
+    type: 'pie', data: data_stanford,
+    options: {
+        cutoutPercentage: 50,
+        legend: {display: false}
+    }
+});
+
+var chart_3 = new Chart($('#pie_5'),
+{
+    type: 'pie', data: data_ypcc_cfd,
     options: {
         cutoutPercentage: 50,
         legend: {display: false}
