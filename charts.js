@@ -12,8 +12,8 @@ var data_ypcc_cfd = {
             backgroundColor: [
                 'rgba(92, 184, 92, 1.0)',
                 'rgba(92, 184, 92, 0.8)',
-                'rgba(217, 83, 79, 0.6)',
-                'rgba(217, 83, 79, 0.8)'
+                'rgba(51, 122, 183, 0.6)',
+                'rgba(51, 122, 183, 0.8)'
             ]
         }
     ]
@@ -28,25 +28,9 @@ var data_ypcc_ghg = {
                 'rgba(92, 184, 92, 1.0)',
                 'rgba(92, 184, 92, 0.8)',
                 'rgba(92, 184, 92, 0.6)',
-                'rgba(217, 83, 79, 0.8)'
+                'rgba(51, 122, 183, 0.8)'
             ]
         }]
-}
-
-// Consensus Among Economists - Fuller and Geide-Stevenson
-// Question 29
-var data_FandGS_29 = {
-    labels: ["Agree", "Agree with Provisions", "Disagree", "No Response"],
-    datasets: [
-        {
-            data: [59.0, 19.7, 19.4, 1.6],
-            backgroundColor: [
-                'rgba(92, 184, 92, 1.0)',
-                'rgba(92, 184, 92, 0.8)',
-                'rgba(217, 83, 79, 0.8)',
-            ]
-        }
-    ]
 }
 
 // Howard and Sylvan - 2015
@@ -68,7 +52,7 @@ var data_HandS = {
                 'rgba(92, 184, 92, 0.8)',
                 'rgba(92, 184, 92, 0.6)',
                 'rgba(92, 184, 92, 0.4)',
-                'rgba(217, 83, 79, 0.8)',
+                'rgba(51, 122, 183, 0.8)',
                 'rgba(100, 100, 100, 1.0)',
                 'rgba(200, 200, 200, 1.0)',
             ]
@@ -84,12 +68,13 @@ var data_stanford = {
             data: [67, 31, 2],
             backgroundColor: [
                 'rgba(92, 184, 92, 1.0)',
-                'rgba(217, 83, 79, 0.8)',
+                'rgba(51, 122, 183, 0.8)',
             ]
         }
     ]
 }
 
+// Consensus Among Economists - Fuller and Geide-Stevenson
 // Question 29
 var data_FandGS_29 = {
     labels: ["Agree", "Agree with Provisions", "Disagree", "No Response"],
@@ -99,7 +84,7 @@ var data_FandGS_29 = {
             backgroundColor: [
                 'rgba(92, 184, 92, 1.0)',
                 'rgba(92, 184, 92, 0.8)',
-                'rgba(217, 83, 79, 0.8)',
+                'rgba(51, 122, 183, 0.8)',
             ]
         }
     ]
