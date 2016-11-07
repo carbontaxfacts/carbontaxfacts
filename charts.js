@@ -110,50 +110,31 @@ var data_FandGS_29 = {
 */
 
 // Global options
-Chart.defaults.global.tooltips.bodyFontSize = 18;
-
+Chart.defaults.global.tooltips.bodyFontSize = 20;
+Chart.defaults.global.legend.display = false;
+Chart.defaults.global.cutoutPercentage = 50;
 
 var chart_1 = new Chart($('#pie_1'), 
 {
-    type: 'pie', data: data_ypcc_ghg,
-    options: {
-        cutoutPercentage: 50,
-        legend: {display: false}
-    }
+    type: 'doughnut', data: data_ypcc_ghg,
 });
 
 var chart_2 = new Chart($('#pie_2'),
 {
-    type: 'pie', data: data_FandGS_29,
-    options: {
-        cutoutPercentage: 50,
-        legend: {display: false}
-    }
+    type: 'doughnut', data: data_FandGS_29,
 });
 
 var chart_3 = new Chart($('#pie_3'),
 {
-    type: 'pie', data: data_HandS,
-    options: {
-        cutoutPercentage: 50,
-        legend: {display: false}
-    }
+    type: 'doughnut', data: data_HandS,
 });
 
 var chart_3 = new Chart($('#pie_4'),
 {
-    type: 'pie', data: data_stanford,
-    options: {
-        cutoutPercentage: 50,
-        legend: {display: false}
-    }
+    type: 'doughnut', data: data_stanford,
 });
 
 var chart_3 = new Chart($('#pie_5'),
 {
-    type: 'pie', data: data_ypcc_cfd,
-    options: {
-        cutoutPercentage: 50,
-        legend: {display: false}
-    }
+    type: 'doughnut', data: data_ypcc_cfd,
 });
