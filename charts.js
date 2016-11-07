@@ -108,6 +108,11 @@ var data_FandGS_29 = {
 /*
 * Chart definitions
 */
+
+// Global options
+Chart.defaults.global.tooltips.bodyFontSize = 18;
+
+
 var chart_1 = new Chart($('#pie_1'), 
 {
     type: 'pie', data: data_ypcc_ghg,
